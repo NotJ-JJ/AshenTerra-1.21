@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ashenterra",
+	"version": "${version}",
+	"name": "AshenTerra",
+	"description": "This is a mod adding ores, tools, armor and more inspired by terraria!",
+	"authors": [
+		"NotJJ"
+	],
+	"contact": {
+		"homepage": "https://github.com/NotJ-JJ",
+		"sources": "https://github.com/NotJ-JJ/AshenTerra-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/ashenterra/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.notjj.ashenterra.AshenTerra"
+		],
+		"fabric-datagen": [
+			"net.notjj.ashenterra.AshenTerraDataGenerator"
+		],
+		"client": [
+			"net.notjj.ashenterra.AshenTerraClient"
+		]
+	},
+	"mixins": [
+		"ashenterra.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
