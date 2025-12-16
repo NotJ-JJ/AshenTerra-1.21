@@ -1,5 +1,13 @@
 {
   "item.ashenterra.raw_tin": "Raw Tin",
+  "item.ashenterra.raw_lead": "Raw Lead",
+  "item.ashenterra.raw_silver": "Raw Silver",
+  "item.ashenterra.raw_tungsten": "Raw Tungsten",
+  "item.ashenterra.raw_platinum": "Raw Platinum",
+  "item.ashenterra.demonite": "Demonite",
+  "item.ashenterra.crimtane": "Crimtane",
+  "item.ashenterra.meteorite": "Meteorite",
+  "item.ashenterra.hellstone": "Hellstone",
 
   "itemgroup.ashenterra.ashen_items": "AshenTerra Items"
 }

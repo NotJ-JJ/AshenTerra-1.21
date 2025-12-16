@@ -16,6 +16,14 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.ashenterra.ashen_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.RAW_PLATINUM);
+                        entries.add(ModItems.RAW_LEAD);
+                        entries.add(ModItems.RAW_SILVER);
+                        entries.add(ModItems.RAW_TUNGSTEN);
+                        entries.add(ModItems.DEMONITE);
+                        entries.add(ModItems.CRIMTANE);
+                        entries.add(ModItems.METEORITE);
+                        entries.add(ModItems.HELLSTONE);
                     })
                     .build());
 
