@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ashenterra:hellstone"
+    },
+    {
+      "item": "ashenterra:hellstone"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ashenterra:raw_hellstone_alloy"
+  }
+}

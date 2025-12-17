@@ -1,4 +1,4 @@
-// 1.21	2025-12-17T12:12:34.8499371	AshenTerra/Model Definitions
+// 1.21	2025-12-17T12:47:14.4673744	AshenTerra/Model Definitions
 07d36d4dae5a61c832ba543591434eb690399e63 assets\ashenterra\models\item\raw_platinum.json
 78f8eaef38b2caf24fb72823501f1a1925f58907 assets\ashenterra\models\item\lead_ore.json
 5d079e0bfd0d985a1f4577ca09369e4a84936547 assets\ashenterra\models\item\deepslate_lead_ore.json
@@ -25,17 +25,17 @@ f63b6faae61f9a50f15cc9808549fa3cce6ea77b assets\ashenterra\models\item\demonite.
 c56394e0335115a8001203870e48c1e962146095 assets\ashenterra\models\block\deepslate_tungsten_ore.json
 04166a3af68e2d17fe0ece8204c62a0fe1b7268f assets\ashenterra\models\block\hellstone_ore.json
 294304f5978b06e0c55f2d51d6698f40de3e45f4 assets\ashenterra\models\item\hellstone_ore.json
+5d66d4cd18e5886f03d3c87b712a5d379d32e365 assets\ashenterra\models\item\platinum_ingot.json
 5016f6cfb644afd74ab4f72f3db7ee55b9ff29f2 assets\ashenterra\models\item\demonite_ore.json
 ff33916a954daa93d813e2ddef7439c889278537 assets\ashenterra\models\block\tin_ore.json
-5d66d4cd18e5886f03d3c87b712a5d379d32e365 assets\ashenterra\models\item\platinum_ingot.json
 d1d46f9dbad325df387f2c19d8aef2d20e9b1507 assets\ashenterra\blockstates\deepslate_platinum_ore.json
 d3d9df6ba0e0adb0ff35f407f2eb3c48177ccf61 assets\ashenterra\blockstates\silver_ore.json
 bf2b90d178473d347d457742c1a16778145b3803 assets\ashenterra\models\block\tungsten_ore.json
 ff2a0a888d0fabd11fe85c6c0edd667eef3da62f assets\ashenterra\models\item\deepslate_tungsten_ore.json
 2babe351cad816c5918ef5f2cc5cbf28d23033b3 assets\ashenterra\models\block\platinum_ore.json
 f4259944f56fa823b40388dfa8486a32a278d242 assets\ashenterra\models\item\meteorite_ingot.json
-9ba32ec7ed1c1729d944e561593d36523a5c4ef0 assets\ashenterra\models\item\raw_hellstone_alloy.json
 a7354fa76575224f260dd721e2c7f412b605d7d3 assets\ashenterra\blockstates\deepslate_tin_ore.json
+9ba32ec7ed1c1729d944e561593d36523a5c4ef0 assets\ashenterra\models\item\raw_hellstone_alloy.json
 bd5f4cc2aa1f1f7bba9cdeab6ae9f742020acda3 assets\ashenterra\models\item\deepslate_platinum_ore.json
 a67b71a58566cdee18abce2d55d9ce64eb1d3d29 assets\ashenterra\models\block\lead_ore.json
 7c7274e88fac17cd883a864549c69a1b13400251 assets\ashenterra\models\item\hellstone_ingot.json

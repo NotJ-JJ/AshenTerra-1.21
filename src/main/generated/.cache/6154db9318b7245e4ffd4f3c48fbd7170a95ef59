@@ -1,5 +1,5 @@
-// 1.21	2025-12-17T12:12:34.8509401	AshenTerra/Tags for minecraft:block
+// 1.21	2025-12-17T12:47:14.4706524	AshenTerra/Tags for minecraft:block
 635c61771f4730a9bed64700f76eff1a25dad2c3 data\minecraft\tags\block\needs_iron_tool.json
 60b70765a83dfe4746de8a7e900b2b10f00a4fd9 data\minecraft\tags\block\needs_diamond_tool.json
-6ba1ab9541d1fed4af3bf6a09b6ce8a99c5b0019 data\minecraft\tags\block\needs_stone_tool.json
 f3edd857f0c6bf5f4379b808d58f44921db80058 data\minecraft\tags\block\mineable\pickaxe.json
+6ba1ab9541d1fed4af3bf6a09b6ce8a99c5b0019 data\minecraft\tags\block\needs_stone_tool.json
