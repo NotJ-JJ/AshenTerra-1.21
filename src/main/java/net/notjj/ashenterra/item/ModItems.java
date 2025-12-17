@@ -18,6 +18,17 @@ public class ModItems {
     public static final Item CRIMTANE = Register("crimtane",new Item(new Item.Settings()));
     public static final Item METEORITE = Register("meteorite",new Item(new Item.Settings()));
     public static final Item HELLSTONE = Register("hellstone",new Item(new Item.Settings()));
+    public static final Item RAW_HELLSTONE_ALLOY = Register("raw_hellstone_alloy",new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = Register("tin_ingot",new Item(new Item.Settings()));
+    public static final Item LEAD_INGOT = Register("lead_ingot",new Item(new Item.Settings()));
+    public static final Item SILVER_INGOT = Register("silver_ingot",new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_INGOT = Register("tungsten_ingot",new Item(new Item.Settings()));
+    public static final Item PLATINUM_INGOT = Register("platinum_ingot",new Item(new Item.Settings()));
+    public static final Item DEMONITE_INGOT = Register("demonite_ingot",new Item(new Item.Settings()));
+    public static final Item CRIMTANE_INGOT = Register("crimtane_ingot",new Item(new Item.Settings()));
+    public static final Item METEORITE_INGOT = Register("meteorite_ingot",new Item(new Item.Settings()));
+    public static final Item HELLSTONE_INGOT = Register("hellstone_ingot",new Item(new Item.Settings()));
+
 
     private static Item Register(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AshenTerra.MOD_ID,name),item);
@@ -27,7 +38,7 @@ public class ModItems {
         AshenTerra.LOGGER.info("Registering mod items for"+AshenTerra.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModItems.RAW_TIN);
+            //fabricItemGroupEntries.add(ModItems.RAW_TIN);
         });
     }
 }

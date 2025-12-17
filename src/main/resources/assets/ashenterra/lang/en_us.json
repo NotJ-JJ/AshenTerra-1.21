@@ -8,6 +8,16 @@
   "item.ashenterra.crimtane": "Crimtane",
   "item.ashenterra.meteorite": "Meteorite",
   "item.ashenterra.hellstone": "Hellstone",
+  "item.ashenterra.raw_hellstone_alloy": "Raw Hellstone Alloy",
+  "item.ashenterra.tin_ingot": "Tin Ingot",
+  "item.ashenterra.lead_ingot": "Lead Ingot",
+  "item.ashenterra.silver_ingot": "Silver Ingot",
+  "item.ashenterra.tungsten_ingot": "Tungsten Ingot",
+  "item.ashenterra.platinum_ingot": "Platinum Ingot",
+  "item.ashenterra.demonite_ingot": "Demonite Ingot",
+  "item.ashenterra.crimtane_ingot": "Crimtane Ingot",
+  "item.ashenterra.meteorite_ingot": "Meteorite Ingot",
+  "item.ashenterra.hellstone_ingot": "Hellstone Ingot",
 
   "itemgroup.ashenterra.ashen_items": "AshenTerra Items"
 }

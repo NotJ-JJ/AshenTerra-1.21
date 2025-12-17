@@ -1,10 +1,20 @@
-// 1.21	2025-12-17T10:25:21.3159096	AshenTerra/Model Definitions
+// 1.21	2025-12-17T11:31:40.6181215	AshenTerra/Model Definitions
 07d36d4dae5a61c832ba543591434eb690399e63 assets\ashenterra\models\item\raw_platinum.json
 a21ba9c775241a134edc93fd11545e89456a2462 assets\ashenterra\models\item\hellstone.json
 9909d0a8a4f0aa3b03915af73441daf83590a2ca assets\ashenterra\models\item\crimtane.json
-f63b6faae61f9a50f15cc9808549fa3cce6ea77b assets\ashenterra\models\item\demonite.json
+01658ec5b0883dc363a4eeb1fbe3bd6afbdcb356 assets\ashenterra\models\item\crimtane_ingot.json
 3057bc923a6a8c917ec83473da69c1a1fd78331b assets\ashenterra\models\item\raw_silver.json
+be9b9a88b80d689171076ccce766428ba32d1ee7 assets\ashenterra\models\item\demonite_ingot.json
+a733cf71248bbadd06bc8adf310d1b0f8ee2e5cb assets\ashenterra\models\item\tin_ingot.json
+3a0427d322df3788ec77d94b7f9b29f908085ac9 assets\ashenterra\models\item\tungsten_ingot.json
+cdb926e772eea7298e15910f41b5aa6e1f8c9f57 assets\ashenterra\models\item\raw_lead.json
+f4259944f56fa823b40388dfa8486a32a278d242 assets\ashenterra\models\item\meteorite_ingot.json
+8ef95093787228ea9bde9861759820f16e8e5f52 assets\ashenterra\models\item\lead_ingot.json
+9ba32ec7ed1c1729d944e561593d36523a5c4ef0 assets\ashenterra\models\item\raw_hellstone_alloy.json
+f63b6faae61f9a50f15cc9808549fa3cce6ea77b assets\ashenterra\models\item\demonite.json
+7c7274e88fac17cd883a864549c69a1b13400251 assets\ashenterra\models\item\hellstone_ingot.json
 f085e32e7c2449ecbf3b7bda5ea55916dedb9385 assets\ashenterra\models\item\meteorite.json
 dfe658a39af57ccfe6c900e9f416dab0c547ed94 assets\ashenterra\models\item\raw_tungsten.json
 ef5114d20e89d3ad42a3b3ac92258b05e4f60b78 assets\ashenterra\models\item\raw_tin.json
-cdb926e772eea7298e15910f41b5aa6e1f8c9f57 assets\ashenterra\models\item\raw_lead.json
+5d66d4cd18e5886f03d3c87b712a5d379d32e365 assets\ashenterra\models\item\platinum_ingot.json
+1918347cbc748aed6ea378cff03537486f7dc1cd assets\ashenterra\models\item\silver_ingot.json

@@ -24,6 +24,16 @@ public class ModItemGroups {
                         entries.add(ModItems.CRIMTANE);
                         entries.add(ModItems.METEORITE);
                         entries.add(ModItems.HELLSTONE);
+                        entries.add(ModItems.RAW_HELLSTONE_ALLOY);
+                        entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModItems.LEAD_INGOT);
+                        entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.TUNGSTEN_INGOT);
+                        entries.add(ModItems.PLATINUM_INGOT);
+                        entries.add(ModItems.DEMONITE_INGOT);
+                        entries.add(ModItems.CRIMTANE_INGOT);
+                        entries.add(ModItems.METEORITE_INGOT);
+                        entries.add(ModItems.HELLSTONE_INGOT);
                     })
                     .build());
 
