@@ -2,6 +2,7 @@ package net.notjj.ashenterra;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.notjj.ashenterra.block.ModBlocks;
 import net.notjj.ashenterra.item.ModItemGroups;
 import net.notjj.ashenterra.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class AshenTerra implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

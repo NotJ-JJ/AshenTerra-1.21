@@ -16,7 +16,7 @@ public class ModItems {
     public static final Item RAW_PLATINUM = Register("raw_platinum",new Item(new Item.Settings()));
     public static final Item DEMONITE = Register("demonite",new Item(new Item.Settings()));
     public static final Item CRIMTANE = Register("crimtane",new Item(new Item.Settings()));
-    public static final Item METEORITE = Register("meteorite",new Item(new Item.Settings()));
+    public static final Item METEORITE_CHUNK = Register("meteorite_chunk",new Item(new Item.Settings()));
     public static final Item HELLSTONE = Register("hellstone",new Item(new Item.Settings()));
     public static final Item RAW_HELLSTONE_ALLOY = Register("raw_hellstone_alloy",new Item(new Item.Settings()));
     public static final Item TIN_INGOT = Register("tin_ingot",new Item(new Item.Settings()));
@@ -36,9 +36,5 @@ public class ModItems {
 
     public static void registerModItems() {
         AshenTerra.LOGGER.info("Registering mod items for"+AshenTerra.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            //fabricItemGroupEntries.add(ModItems.RAW_TIN);
-        });
     }
 }

@@ -2,6 +2,7 @@ package net.notjj.ashenterra;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.notjj.ashenterra.datagen.ModBlockTagProvider;
 import net.notjj.ashenterra.datagen.ModModelProvider;
 
 public class AshenTerraDataGenerator implements DataGeneratorEntrypoint {
@@ -10,5 +11,6 @@ public class AshenTerraDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagProvider::new);
 	}
 }

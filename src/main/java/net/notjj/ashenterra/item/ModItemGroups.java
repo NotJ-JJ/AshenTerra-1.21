@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.notjj.ashenterra.AshenTerra;
+import net.notjj.ashenterra.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup ASHENTERRA_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -22,7 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_TUNGSTEN);
                         entries.add(ModItems.DEMONITE);
                         entries.add(ModItems.CRIMTANE);
-                        entries.add(ModItems.METEORITE);
+                        entries.add(ModItems.METEORITE_CHUNK);
                         entries.add(ModItems.HELLSTONE);
                         entries.add(ModItems.RAW_HELLSTONE_ALLOY);
                         entries.add(ModItems.TIN_INGOT);
@@ -34,6 +35,21 @@ public class ModItemGroups {
                         entries.add(ModItems.CRIMTANE_INGOT);
                         entries.add(ModItems.METEORITE_INGOT);
                         entries.add(ModItems.HELLSTONE_INGOT);
+
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        entries.add(ModBlocks.TUNGSTEN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+                        entries.add(ModBlocks.PLATINUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
+                        entries.add(ModBlocks.LEAD_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_LEAD_ORE);
+                        entries.add(ModBlocks.DEMONITE_ORE);
+                        entries.add(ModBlocks.CRIMTANE_ORE);
+                        entries.add(ModBlocks.METEORITE);
+                        entries.add(ModBlocks.HELLSTONE_ORE);
                     })
                     .build());
 
