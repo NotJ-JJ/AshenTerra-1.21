@@ -49,7 +49,7 @@ public class ModBlocks {
     public static final Block HELLSTONE_ORE = registerBlock("hellstone_ore",
             new Block(AbstractBlock.Settings.create().strength(18.0F, 10.0F).requiresTool()));
 
-    //Registries
+    //Registering
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, Identifier.of(AshenTerra.MOD_ID,name),block);

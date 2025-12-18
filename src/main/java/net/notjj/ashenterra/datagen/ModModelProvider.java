@@ -52,5 +52,59 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CRIMTANE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.METEORITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.HELLSTONE_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TIN_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.LEAD_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SILVER_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_SHOVEL, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PLATINUM_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATINUM_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.DEMONITE_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEMONITE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEMONITE_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEMONITE_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEMONITE_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CRIMTANE_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRIMTANE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRIMTANE_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRIMTANE_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRIMTANE_SWORD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HELLSTONE_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HELLSTONE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HELLSTONE_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HELLSTONE_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HELLSTONE_SWORD, Models.GENERATED);
     }
 }
