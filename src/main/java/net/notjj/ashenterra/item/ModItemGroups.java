@@ -89,7 +89,7 @@ public class ModItemGroups {
                         entries.add(ModItems.HELLSTONE_HOE);
                         entries.add(ModItems.HELLSTONE_PICKAXE);
                         entries.add(ModItems.HELLSTONE_SHOVEL);
-                        entries.add(ModItems.CRIMTANE_SWORD);
+                        entries.add(ModItems.HELLSTONE_SWORD);
 
                         //Blocks
                         entries.add(ModBlocks.TIN_ORE);

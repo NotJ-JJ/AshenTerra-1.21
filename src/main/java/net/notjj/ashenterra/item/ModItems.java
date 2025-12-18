@@ -138,5 +138,9 @@ public class ModItems {
 
     public static void registerModItems() {
         AshenTerra.LOGGER.info("Registering mod items for"+AshenTerra.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModItems.TIN_INGOT);
+        });
     }
 }

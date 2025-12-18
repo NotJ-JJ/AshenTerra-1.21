@@ -19,6 +19,21 @@
   "item.ashenterra.meteorite_ingot": "Meteorite Ingot",
   "item.ashenterra.hellstone_ingot": "Hellstone Ingot",
 
+  "block.ashenterra.tin_ore": "Tin Ore",
+  "block.ashenterra.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.ashenterra.lead_ore": "Lead Ore",
+  "block.ashenterra.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.ashenterra.silver_ore": "Silver Ore",
+  "block.ashenterra.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.ashenterra.tungsten_ore": "Tungsten Ore",
+  "block.ashenterra.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.ashenterra.platinum_ore": "Platinum Ore",
+  "block.ashenterra.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.ashenterra.demonite_ore": "Demonite Ore",
+  "block.ashenterra.crimtane_ore": "Crimtane Ore",
+  "block.ashenterra.meteorite": "Meteorite",
+  "block.ashenterra.hellstone_ore": "Hellstone Ore",
+
   "item.ashenterra.copper_hoe": "Copper Hoe",
   "item.ashenterra.copper_axe": "Copper Axe",
   "item.ashenterra.copper_pickaxe": "Copper Pickaxe",
@@ -72,21 +87,6 @@
   "item.ashenterra.hellstone_pickaxe": "Hellstone Pickaxe",
   "item.ashenterra.hellstone_shovel": "Hellstone Shovel",
   "item.ashenterra.hellstone_sword": "Hellstone Sword",
-
-  "block.ashenterra.tin_ore": "Tin Ore",
-  "block.ashenterra.deepslate_tin_ore": "Deepslate Tin Ore",
-  "block.ashenterra.lead_ore": "Lead Ore",
-  "block.ashenterra.deepslate_lead_ore": "Deepslate Lead Ore",
-  "block.ashenterra.silver_ore": "Silver Ore",
-  "block.ashenterra.deepslate_silver_ore": "Deepslate Silver Ore",
-  "block.ashenterra.tungsten_ore": "Tungsten Ore",
-  "block.ashenterra.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
-  "block.ashenterra.platinum_ore": "Platinum Ore",
-  "block.ashenterra.deepslate_platinum_ore": "Deepslate Platinum Ore",
-  "block.ashenterra.demonite_ore": "Demonite Ore",
-  "block.ashenterra.crimtane_ore": "Crimtane Ore",
-  "block.ashenterra.meteorite": "Meteorite",
-  "block.ashenterra.hellstone_ore": "Hellstone Ore",
 
   "itemgroup.ashenterra.ashen_items": "AshenTerra Items"
 }
