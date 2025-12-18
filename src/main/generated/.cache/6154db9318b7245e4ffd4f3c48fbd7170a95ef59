@@ -1,5 +1,8 @@
-// 1.21	2025-12-18T20:21:51.68143	AshenTerra/Tags for minecraft:block
-635c61771f4730a9bed64700f76eff1a25dad2c3 data\minecraft\tags\block\needs_iron_tool.json
-33fea83e408250c5ca66a7d5304dbfefdddf9a1f data\minecraft\tags\block\needs_diamond_tool.json
-6ba1ab9541d1fed4af3bf6a09b6ce8a99c5b0019 data\minecraft\tags\block\needs_stone_tool.json
+// 1.21	2025-12-18T20:37:47.0928751	AshenTerra/Tags for minecraft:block
+d43d63a0f7c6180808ae037231baf76a9e587be8 data\minecraft\tags\block\needs_iron_tool.json
+60b70765a83dfe4746de8a7e900b2b10f00a4fd9 data\minecraft\tags\block\needs_diamond_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\ashenterra\tags\block\needs_silver_tool.json
+8ffe9c080eb471578882fcc6d488b3b62f728630 data\ashenterra\tags\block\needs_copper_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\ashenterra\tags\block\needs_gold_tool.json
 f3edd857f0c6bf5f4379b808d58f44921db80058 data\minecraft\tags\block\mineable\pickaxe.json
+6ba1ab9541d1fed4af3bf6a09b6ce8a99c5b0019 data\minecraft\tags\block\needs_stone_tool.json
