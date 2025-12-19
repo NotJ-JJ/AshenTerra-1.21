@@ -101,10 +101,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CRIMTANE_SHOVEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CRIMTANE_SWORD, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.HELLSTONE_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HELLSTONE_HOE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HELLSTONE_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HELLSTONE_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HELLSTONE_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTEN_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTEN_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTEN_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTEN_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTEN_SWORD, Models.GENERATED);
     }
 }

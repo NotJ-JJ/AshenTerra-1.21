@@ -47,7 +47,7 @@ public class ModItems {
             .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND,3,-2.4f))));
     public static final Item CRIMTANE_SWORD = Register("crimtane_sword", new SwordItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND,3,-2.4f))));
-    public static final Item HELLSTONE_SWORD = Register("hellstone_sword", new SwordItem(ToolMaterials.DIAMOND,new Item.Settings()
+    public static final Item MOLTEN_SWORD = Register("molten_sword", new SwordItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND,3,-2.4f))));
 
     //Pickaxes
@@ -67,7 +67,7 @@ public class ModItems {
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.0f,-2.8f))));
     public static final Item CRIMTANE_PICKAXE = Register("crimtane_pickaxe",new PickaxeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.0f,-2.8f))));
-    public static final Item HELLSTONE_PICKAXE = Register("hellstone_pickaxe",new PickaxeItem(ToolMaterials.DIAMOND,new Item.Settings()
+    public static final Item MOLTEN_PICKAXE = Register("molten_pickaxe",new PickaxeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.0f,-2.8f))));
 
     //Axes
@@ -87,7 +87,7 @@ public class ModItems {
             .attributeModifiers(AxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,6.0f,-3.1f))));
     public static final Item CRIMTANE_AXE = Register("crimtane_axe",new AxeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(AxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,6.0f,-3.1f))));
-    public static final Item HELLSTONE_AXE = Register("hellstone_axe",new AxeItem(ToolMaterials.DIAMOND,new Item.Settings()
+    public static final Item MOLTEN_AXE = Register("molten_axe",new AxeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(AxeItem.createAttributeModifiers(ToolMaterials.DIAMOND,6.0f,-3.1f))));
 
     //Shovels
@@ -107,7 +107,7 @@ public class ModItems {
             .attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.5f,-3.0f))));
     public static final Item CRIMTANE_SHOVEL = Register("crimtane_shovel",new ShovelItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.5f,-3.0f))));
-    public static final Item HELLSTONE_SHOVEL = Register("hellstone_shovel",new ShovelItem(ToolMaterials.DIAMOND,new Item.Settings()
+    public static final Item MOLTEN_SHOVEL = Register("molten_shovel",new ShovelItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.DIAMOND,1.5f,-3.0f))));
 
     //Hoes
@@ -127,7 +127,7 @@ public class ModItems {
             .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.DIAMOND,0f,-1.0f))));
     public static final Item CRIMTANE_HOE = Register("crimtane_hoe",new HoeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.DIAMOND,0f,-1.0f))));
-    public static final Item HELLSTONE_HOE = Register("hellstone_hoe",new HoeItem(ToolMaterials.DIAMOND,new Item.Settings()
+    public static final Item MOLTEN_HOE = Register("molten_hoe",new HoeItem(ToolMaterials.DIAMOND,new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.DIAMOND,0f,-1.0f))));
 
     //Registering

@@ -85,11 +85,11 @@ public class ModItemGroups {
                         entries.add(ModItems.CRIMTANE_SHOVEL);
                         entries.add(ModItems.CRIMTANE_SWORD);
 
-                        entries.add(ModItems.HELLSTONE_AXE);
-                        entries.add(ModItems.HELLSTONE_HOE);
-                        entries.add(ModItems.HELLSTONE_PICKAXE);
-                        entries.add(ModItems.HELLSTONE_SHOVEL);
-                        entries.add(ModItems.HELLSTONE_SWORD);
+                        entries.add(ModItems.MOLTEN_AXE);
+                        entries.add(ModItems.MOLTEN_SHOVEL);
+                        entries.add(ModItems.MOLTEN_HOE);
+                        entries.add(ModItems.MOLTEN_PICKAXE);
+                        entries.add(ModItems.MOLTEN_SWORD);
 
                         //Blocks
                         entries.add(ModBlocks.TIN_ORE);

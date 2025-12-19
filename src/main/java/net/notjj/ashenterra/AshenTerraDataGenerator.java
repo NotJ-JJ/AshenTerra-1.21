@@ -2,10 +2,7 @@ package net.notjj.ashenterra;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.notjj.ashenterra.datagen.ModBlockTagProvider;
-import net.notjj.ashenterra.datagen.ModLootTableProvider;
-import net.notjj.ashenterra.datagen.ModModelProvider;
-import net.notjj.ashenterra.datagen.ModRecipeProvider;
+import net.notjj.ashenterra.datagen.*;
 
 public class AshenTerraDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,5 +13,6 @@ public class AshenTerraDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 }

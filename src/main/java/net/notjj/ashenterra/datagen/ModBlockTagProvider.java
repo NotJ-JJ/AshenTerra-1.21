@@ -46,17 +46,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.IRON_ORE)
                 .add(Blocks.DEEPSLATE_IRON_ORE)
                 .add(ModBlocks.SILVER_ORE)
-                .add(ModBlocks.DEEPSLATE_SILVER_ORE);;
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.TUNGSTEN_ORE)
                 .add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE)
                 .add(ModBlocks.PLATINUM_ORE)
-                .add(ModBlocks.DEEPSLATE_PLATINUM_ORE)
-                .add(ModBlocks.METEORITE);
+                .add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SILVER_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL);
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.METEORITE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GOLD_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);

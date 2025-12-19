@@ -82,11 +82,11 @@
   "item.ashenterra.crimtane_shovel": "Crimtane Shovel",
   "item.ashenterra.crimtane_sword": "Crimtane Sword",
 
-  "item.ashenterra.hellstone_hoe": "Hellstone Hoe",
-  "item.ashenterra.hellstone_axe": "Hellstone Axe",
-  "item.ashenterra.hellstone_pickaxe": "Hellstone Pickaxe",
-  "item.ashenterra.hellstone_shovel": "Hellstone Shovel",
-  "item.ashenterra.hellstone_sword": "Hellstone Sword",
+  "item.ashenterra.molten_hoe": "Molten Hoe",
+  "item.ashenterra.molten_axe": "Molten Axe",
+  "item.ashenterra.molten_pickaxe": "Molten Pickaxe",
+  "item.ashenterra.molten_shovel": "Molten Shovel",
+  "item.ashenterra.molten_sword": "Molten Sword",
 
   "itemgroup.ashenterra.ashen_items": "AshenTerra Items"
 }
