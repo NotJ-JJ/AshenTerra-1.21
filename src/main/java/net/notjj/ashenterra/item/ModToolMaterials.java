@@ -11,7 +11,7 @@ import net.notjj.ashenterra.util.ModTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL, 190, 5.0F, 1.5F, 8, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL, 190, 4.5F, 1.5F, 8, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
     SILVER(ModTags.Blocks.INCORRECT_FOR_SILVER_TOOL, 450, 6.50F, 2.5F, 12, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
     GOLD(ModTags.Blocks.INCORRECT_FOR_GOLD_TOOL, 850, 7.0F, 2.5F, 10, () -> Ingredient.ofItems(Items.GOLD_INGOT));
 
