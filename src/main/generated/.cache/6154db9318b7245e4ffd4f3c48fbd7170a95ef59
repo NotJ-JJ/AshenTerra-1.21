@@ -1,15 +1,15 @@
-// 1.21	2025-12-20T13:20:11.3934481	AshenTerra/Tags for minecraft:block
+// 1.21	2025-12-20T13:29:08.3547974	AshenTerra/Tags for minecraft:block
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\ashenterra\tags\block\incorrect_for_molten_tool.json
 4744427cb647fb98a8fcce83a6e54e25ff6d2741 data\ashenterra\tags\block\incorrect_for_silver_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\ashenterra\tags\block\incorrect_for_demonite_tool.json
-c889697e5c8e909877a834bc20d059fa6e2f7271 data\minecraft\tags\block\needs_iron_tool.json
-60b70765a83dfe4746de8a7e900b2b10f00a4fd9 data\minecraft\tags\block\needs_diamond_tool.json
-b270a760467dc497b67dc7e2e10a57c7003f9546 data\ashenterra\tags\block\needs_silver_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data\ashenterra\tags\block\needs_gold_tool.json
+aeb702f97bf15ddc1b471eabe17224f499fb9c9f data\minecraft\tags\block\needs_iron_tool.json
+33fea83e408250c5ca66a7d5304dbfefdddf9a1f data\minecraft\tags\block\needs_diamond_tool.json
+a51e911de737f241b6d0a69e1b2fc6da1ce38ec9 data\ashenterra\tags\block\needs_silver_tool.json
+0de336b9422903eeddf8f776928ccae4b6e14fa5 data\ashenterra\tags\block\needs_gold_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\ashenterra\tags\block\incorrect_for_gold_tool.json
 f3edd857f0c6bf5f4379b808d58f44921db80058 data\minecraft\tags\block\mineable\pickaxe.json
-5f1a35a7e0cdf508ab4164df89083bc9f7f1bb8a data\minecraft\tags\block\needs_stone_tool.json
-ebf76b93e9866dd14e1c9bb68bdae99e1134ddbc data\minecraft\tags\block\incorrect_for_iron_tool.json
-b9552d28c38131bbaa73f3f7ba35ae193955a117 data\ashenterra\tags\block\needs_copper_tool.json
+cbd7497a3bd0a85a98298301ee6dd0284538628c data\minecraft\tags\block\needs_stone_tool.json
+ce95d99876bbe184818c8a2c577ebcaed44d595b data\minecraft\tags\block\incorrect_for_iron_tool.json
+72db700aad566dd7ea99b494fe5b6f11f88efa45 data\ashenterra\tags\block\needs_copper_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\ashenterra\tags\block\incorrect_for_copper_tool.json
 950a086f855d118e00d3fc9697663c7721c42db1 data\ashenterra\tags\block\incorrect_for_iron_tool.json

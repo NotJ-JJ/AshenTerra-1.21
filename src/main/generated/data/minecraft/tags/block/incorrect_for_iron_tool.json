@@ -2,6 +2,8 @@
   "values": [
     "minecraft:diamond_ore",
     "minecraft:deepslate_diamond_ore",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
     "#ashenterra:needs_silver_tool"
   ]
 }

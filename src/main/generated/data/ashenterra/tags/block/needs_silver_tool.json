@@ -1,6 +1,11 @@
 {
   "values": [
-    "#minecraft:needs_iron_tool",
-    "ashenterra:meteorite"
+    "ashenterra:meteorite",
+    "ashenterra:platinum_ore",
+    "ashenterra:deepslate_platinum_ore",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore"
   ]
 }

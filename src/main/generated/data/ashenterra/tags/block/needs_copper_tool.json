@@ -2,7 +2,7 @@
   "values": [
     "minecraft:iron_ore",
     "minecraft:deepslate_iron_ore",
-    "ashenterra:silver_ore",
-    "ashenterra:deepslate_silver_ore"
+    "ashenterra:lead_ore",
+    "ashenterra:deepslate_lead_ore"
   ]
 }

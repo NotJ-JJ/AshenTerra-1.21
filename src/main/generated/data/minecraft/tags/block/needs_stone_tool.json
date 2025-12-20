@@ -1,8 +1,6 @@
 {
   "values": [
     "ashenterra:tin_ore",
-    "ashenterra:deepslate_tin_ore",
-    "ashenterra:lead_ore",
-    "ashenterra:deepslate_lead_ore"
+    "ashenterra:deepslate_tin_ore"
   ]
 }

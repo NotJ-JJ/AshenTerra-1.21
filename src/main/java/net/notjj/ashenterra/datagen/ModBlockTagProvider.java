@@ -37,34 +37,36 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         //Correct for
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DEMONITE_ORE)
-                .add(ModBlocks.CRIMTANE_ORE)
                 .add(ModBlocks.HELLSTONE_ORE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GOLD_TOOL)
-                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+                .add(ModBlocks.DEMONITE_ORE)
+                .add(ModBlocks.CRIMTANE_ORE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SILVER_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.METEORITE);
+                .add(ModBlocks.METEORITE)
+                .add(ModBlocks.PLATINUM_ORE)
+                .add(ModBlocks.DEEPSLATE_PLATINUM_ORE)
+                .add(Blocks.GOLD_ORE)
+                .add(Blocks.DEEPSLATE_GOLD_ORE)
+                .add(Blocks.DIAMOND_ORE)
+                .add(Blocks.DEEPSLATE_DIAMOND_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.TUNGSTEN_ORE)
                 .add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE)
-                .add(ModBlocks.PLATINUM_ORE)
-                .add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
                 .add(Blocks.IRON_ORE)
                 .add(Blocks.DEEPSLATE_IRON_ORE)
-                .add(ModBlocks.SILVER_ORE)
-                .add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.TIN_ORE)
-                .add(ModBlocks.DEEPSLATE_TIN_ORE)
-                .add(ModBlocks.LEAD_ORE)
-                .add(ModBlocks.DEEPSLATE_LEAD_ORE);
+                .add(ModBlocks.DEEPSLATE_TIN_ORE);
 
         //Incorrect for
         getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_MOLTEN_TOOL);
@@ -76,7 +78,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .addTag(ModTags.Blocks.NEEDS_GOLD_TOOL);
 
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
-                .add(Blocks.DIAMOND_ORE).add(Blocks.DEEPSLATE_DIAMOND_ORE).addTag(ModTags.Blocks.NEEDS_SILVER_TOOL);
+                .add(Blocks.DIAMOND_ORE)
+                .add(Blocks.DEEPSLATE_DIAMOND_ORE)
+                .add(Blocks.GOLD_ORE)
+                .add(Blocks.DEEPSLATE_GOLD_ORE)
+                .addTag(ModTags.Blocks.NEEDS_SILVER_TOOL);
 
         getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_IRON_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
