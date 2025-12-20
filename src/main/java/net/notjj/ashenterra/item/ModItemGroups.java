@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.ashenterra.ashen_items"))
                     .entries((displayContext, entries) -> {
                         //Items
+
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.RAW_PLATINUM);
                         entries.add(ModItems.RAW_LEAD);
