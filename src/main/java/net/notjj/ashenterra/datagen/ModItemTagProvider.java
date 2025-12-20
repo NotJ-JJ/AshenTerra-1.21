@@ -2,9 +2,11 @@ package net.notjj.ashenterra.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.notjj.ashenterra.item.ModItems;
+import net.notjj.ashenterra.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -15,6 +17,26 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        getOrCreateTagBuilder(ModTags.Items.COPPER_TIER_INGOTS)
+                .add(Items.COPPER_INGOT)
+                .add(ModItems.TIN_INGOT);
+
+        getOrCreateTagBuilder(ModTags.Items.IRON_TIER_INGOTS)
+                .add(Items.IRON_INGOT)
+                .add(ModItems.LEAD_INGOT);
+
+        getOrCreateTagBuilder(ModTags.Items.SILVER_TIER_INGOTS)
+                .add(ModItems.SILVER_INGOT)
+                .add(ModItems.TUNGSTEN_INGOT);
+
+        getOrCreateTagBuilder(ModTags.Items.GOLD_TIER_INGOTS)
+                .add(Items.GOLD_INGOT)
+                .add(ModItems.PLATINUM_INGOT);
+
+        getOrCreateTagBuilder(ModTags.Items.DEMONITE_TIER_INGOTS)
+                .add(ModItems.DEMONITE_INGOT)
+                .add(ModItems.CRIMTANE_INGOT);
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD)
                 .add(ModItems.TIN_SWORD)

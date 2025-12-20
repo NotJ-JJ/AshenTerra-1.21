@@ -1,8 +1,0 @@
-{
-  "values": [
-    "#minecraft:incorrect_for_stone_tool"
-  ],
-  "remove": [
-    "#ashenterra:needs_copper_tool"
-  ]
-}

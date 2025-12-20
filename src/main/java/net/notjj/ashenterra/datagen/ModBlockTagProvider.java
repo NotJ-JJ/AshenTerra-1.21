@@ -35,18 +35,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.METEORITE)
                 .add(ModBlocks.HELLSTONE_ORE);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.TIN_ORE)
-                .add(ModBlocks.LEAD_ORE)
-                .add(ModBlocks.DEEPSLATE_LEAD_ORE)
-                .add(ModBlocks.DEEPSLATE_TIN_ORE);
+        //Correct for
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.DEMONITE_ORE)
+                .add(ModBlocks.CRIMTANE_ORE)
+                .add(ModBlocks.HELLSTONE_ORE);
 
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
-                .addTag(BlockTags.NEEDS_STONE_TOOL)
-                .add(Blocks.IRON_ORE)
-                .add(Blocks.DEEPSLATE_IRON_ORE)
-                .add(ModBlocks.SILVER_ORE)
-                .add(ModBlocks.DEEPSLATE_SILVER_ORE);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GOLD_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SILVER_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.METEORITE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.TUNGSTEN_ORE)
@@ -54,17 +54,34 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PLATINUM_ORE)
                 .add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
 
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SILVER_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.METEORITE);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
+                .add(Blocks.IRON_ORE)
+                .add(Blocks.DEEPSLATE_IRON_ORE)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE);
 
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GOLD_TOOL)
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE);
+
+        //Incorrect for
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_MOLTEN_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_DEMONITE_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_GOLD_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DEMONITE_ORE)
-                .add(ModBlocks.CRIMTANE_ORE)
-                .add(ModBlocks.HELLSTONE_ORE);
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_SILVER_TOOL)
+                .addTag(ModTags.Blocks.NEEDS_GOLD_TOOL);
 
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .add(Blocks.DIAMOND_ORE).add(Blocks.DEEPSLATE_DIAMOND_ORE).addTag(ModTags.Blocks.NEEDS_SILVER_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_IRON_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

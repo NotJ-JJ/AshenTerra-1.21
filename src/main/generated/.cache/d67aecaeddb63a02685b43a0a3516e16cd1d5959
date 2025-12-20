@@ -1,6 +1,11 @@
-// 1.21	2025-12-20T11:13:43.2114108	AshenTerra/Tags for minecraft:item
+// 1.21	2025-12-20T13:20:11.391944	AshenTerra/Tags for minecraft:item
+6e460a24ae693d563382b0db61a23f8a325181a0 data\ashenterra\tags\item\gold_tier_ingots.json
+fb7681b921e0a4e5fc0ef3b827ce2582bfc6eabb data\ashenterra\tags\item\iron_tier_ingots.json
 e8d9c825b90c91783b48395413c1379e452a652a data\minecraft\tags\item\pickaxes.json
 6ff91fc10e2396cd179102ad8be379f1d2ceb8d7 data\minecraft\tags\item\hoes.json
 1966dde948606b6cb0e1ab6668df9308285be4a3 data\minecraft\tags\item\shovels.json
+74c8878a921ac4ce1de197439a5b22497c8f8be1 data\ashenterra\tags\item\silver_tier_ingots.json
+a21a2df3f3972340ce5a11149b6cc4e5a855fd2d data\ashenterra\tags\item\copper_tier_ingots.json
+94d6c3df4465743a8a93697eac27963ad686105b data\ashenterra\tags\item\demonite_tier_ingots.json
 b1e8739148a3c34544945c48050cfd26482b5d94 data\minecraft\tags\item\swords.json
 655032337b82587e747e6221a6e9b0e1523145a2 data\minecraft\tags\item\axes.json

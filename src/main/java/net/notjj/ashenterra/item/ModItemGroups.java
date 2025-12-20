@@ -13,7 +13,7 @@ import net.notjj.ashenterra.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup ASHENTERRA_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(AshenTerra.MOD_ID,"ashenterra_item_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RAW_TIN))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MOLTEN_PICKAXE))
                     .displayName(Text.translatable("itemgroup.ashenterra.ashen_items"))
                     .entries((displayContext, entries) -> {
                         //Items
