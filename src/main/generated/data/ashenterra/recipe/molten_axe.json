@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "ashenterra:hellstone_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "II ",
+    "IS ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ashenterra:molten_axe"
+  }
+}

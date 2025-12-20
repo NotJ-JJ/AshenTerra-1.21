@@ -1,10 +1,10 @@
-// 1.21	2025-12-19T21:21:09.7410234	AshenTerra/Model Definitions
+// 1.21	2025-12-20T11:13:43.2082005	AshenTerra/Model Definitions
 572929947e2a23e09d1025d93007de0614aff825 assets\ashenterra\models\item\lead_hoe.json
 78f8eaef38b2caf24fb72823501f1a1925f58907 assets\ashenterra\models\item\lead_ore.json
 8041a0de99e4f855a77aa3502b1d2fe0bccc2e53 assets\ashenterra\models\item\molten_axe.json
 be9b9a88b80d689171076ccce766428ba32d1ee7 assets\ashenterra\models\item\demonite_ingot.json
-cc3dc6b78605ebf9006456d29f2387f4fe53603d assets\ashenterra\models\item\tungsten_sword.json
 9fedd9f6887859e19570f93371eba05e962f1b1f assets\ashenterra\models\item\copper_shovel.json
+cc3dc6b78605ebf9006456d29f2387f4fe53603d assets\ashenterra\models\item\tungsten_sword.json
 64edf3312e7c05ed48bd1d636933a2a77e354b9c assets\ashenterra\models\item\molten_shovel.json
 a733cf71248bbadd06bc8adf310d1b0f8ee2e5cb assets\ashenterra\models\item\tin_ingot.json
 3b5b587ce6da0397b79f3f5c0d881dadf669b156 assets\ashenterra\models\item\tungsten_shovel.json
@@ -91,8 +91,8 @@ dd62aef2d6e618977e9d9cc6b0ecf823e5fd610d assets\ashenterra\models\block\demonite
 2d9ee1d3dcd83f909db5896c3a5b57c3e698e95c assets\ashenterra\models\item\crimtane_axe.json
 1b3445252fcafe67a8866a3b9a3c17147335b3b1 assets\ashenterra\models\item\crimtane_hoe.json
 3057bc923a6a8c917ec83473da69c1a1fd78331b assets\ashenterra\models\item\raw_silver.json
-2ae6360f36c15d11dcb0a224917da065e08b55ce assets\ashenterra\models\item\tin_hoe.json
 16ffa4c4afc54da8249c4b58e334b80b6880efa2 assets\ashenterra\models\item\tin_pickaxe.json
+2ae6360f36c15d11dcb0a224917da065e08b55ce assets\ashenterra\models\item\tin_hoe.json
 2d855d492759ae9a130b6dc1d1d453a43c7a2cf9 assets\ashenterra\models\item\lead_shovel.json
 47508746c12371cd8f9cdeb184576a4898f3005d assets\ashenterra\models\item\platinum_shovel.json
 1d469c20c14d01b1ea89904cd5d00bee0f272e54 assets\ashenterra\blockstates\deepslate_silver_ore.json

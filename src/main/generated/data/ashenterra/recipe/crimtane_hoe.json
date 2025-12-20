@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "ashenterra:crimtane_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "II ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ashenterra:crimtane_hoe"
+  }
+}
