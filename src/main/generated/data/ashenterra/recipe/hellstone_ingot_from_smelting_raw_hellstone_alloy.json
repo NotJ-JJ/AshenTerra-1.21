@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 10.0,
+  "group": "smelting",
+  "ingredient": {
+    "item": "ashenterra:raw_hellstone_alloy"
+  },
+  "result": {
+    "id": "ashenterra:hellstone_ingot"
+  }
+}

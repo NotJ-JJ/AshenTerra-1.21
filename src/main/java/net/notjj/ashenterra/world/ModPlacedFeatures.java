@@ -30,13 +30,13 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context,TIN_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.TIN_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12, HeightRangePlacementModifier.uniform(YOffset.fixed(-40),YOffset.fixed(70))));
+                ModOrePlacement.modifiersWithCount(9, HeightRangePlacementModifier.uniform(YOffset.fixed(-20),YOffset.fixed(70))));
         register(context,LEAD_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.LEAD_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(10, HeightRangePlacementModifier.uniform(YOffset.fixed(-60),YOffset.fixed(60))));
+                ModOrePlacement.modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.fixed(-30),YOffset.fixed(60))));
         register(context,SILVER_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(9, HeightRangePlacementModifier.uniform(YOffset.fixed(-70),YOffset.fixed(40))));
+                ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(-70),YOffset.fixed(40))));
         register(context,TUNGSTEN_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.TUNGSTEN_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(9, HeightRangePlacementModifier.uniform(YOffset.fixed(-70),YOffset.fixed(40))));
+                ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(-70),YOffset.fixed(40))));
         register(context,PLATINUM_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(-50),YOffset.fixed(15))));
         register(context,METEORITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.METEORITE_ORE_KEY),

@@ -11,9 +11,11 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.notjj.ashenterra.block.ModBlocks;
 import net.notjj.ashenterra.item.ModItems;
 
 import javax.lang.model.type.TypeVariable;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -66,8 +68,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.COPPER_INGOT),conditionsFromItem(Items.COPPER_INGOT)).offerTo(recipeExporter);
     }
 
+    public static final List<ItemConvertible> SMELT_TO_TIN = List.of(ModItems.RAW_TIN, ModBlocks.TIN_ORE,ModBlocks.DEEPSLATE_TIN_ORE);
+    public static final List<ItemConvertible> SMELT_TO_LEAD = List.of(ModItems.RAW_LEAD, ModBlocks.LEAD_ORE,ModBlocks.DEEPSLATE_LEAD_ORE);
+    public static final List<ItemConvertible> SMELT_TO_SILVER = List.of(ModItems.RAW_SILVER, ModBlocks.SILVER_ORE,ModBlocks.DEEPSLATE_SILVER_ORE);
+    public static final List<ItemConvertible> SMELT_TO_TUNGSTEN = List.of(ModItems.RAW_TUNGSTEN, ModBlocks.TUNGSTEN_ORE,ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+    public static final List<ItemConvertible> SMELT_TO_PLATINUM = List.of(ModItems.RAW_PLATINUM, ModBlocks.PLATINUM_ORE,ModBlocks.DEEPSLATE_PLATINUM_ORE);
+    public static final List<ItemConvertible> SMELT_TO_METEORITE = List.of(ModItems.METEORITE_CHUNK);
+    public static final List<ItemConvertible> SMELT_TO_DEMONITE = List.of(ModItems.DEMONITE, ModBlocks.DEMONITE_ORE);
+    public static final List<ItemConvertible> SMELT_TO_CRIMTANE = List.of(ModItems.CRIMTANE, ModBlocks.CRIMTANE_ORE);
+    public static final List<ItemConvertible> SMELT_TO_HELLSTONE = List.of(ModItems.RAW_HELLSTONE_ALLOY);
+
     @Override
     public void generate(RecipeExporter recipeExporter) {
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_TIN,RecipeCategory.MISC,ModItems.TIN_INGOT,0.5f,300,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_LEAD,RecipeCategory.MISC,ModItems.LEAD_INGOT,0.5f,300,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_SILVER,RecipeCategory.MISC,ModItems.SILVER_INGOT,0.5f,300,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_TUNGSTEN,RecipeCategory.MISC,ModItems.TUNGSTEN_INGOT,0.5f,300,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_PLATINUM,RecipeCategory.MISC,ModItems.PLATINUM_INGOT,1f,300,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_METEORITE,RecipeCategory.MISC,ModItems.METEORITE_INGOT,1f,500,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_DEMONITE,RecipeCategory.MISC,ModItems.DEMONITE_INGOT,5f,400,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_CRIMTANE,RecipeCategory.MISC,ModItems.CRIMTANE_INGOT,5f,400,"smelting");
+        ModRecipeProvider.offerSmelting(recipeExporter,SMELT_TO_HELLSTONE,RecipeCategory.MISC,ModItems.HELLSTONE_INGOT,10f,600,"smelting");
+
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_HELLSTONE_ALLOY)
                 .input(ModItems.HELLSTONE).input(ModItems.HELLSTONE).input(Items.OBSIDIAN)
                 .criterion(hasItem(ModItems.HELLSTONE),conditionsFromItem(ModItems.HELLSTONE)).offerTo(recipeExporter);

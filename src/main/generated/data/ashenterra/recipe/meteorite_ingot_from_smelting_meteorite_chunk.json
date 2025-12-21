@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 1.0,
+  "group": "smelting",
+  "ingredient": {
+    "item": "ashenterra:meteorite_chunk"
+  },
+  "result": {
+    "id": "ashenterra:meteorite_ingot"
+  }
+}

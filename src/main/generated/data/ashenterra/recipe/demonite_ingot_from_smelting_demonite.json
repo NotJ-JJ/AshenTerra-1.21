@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 5.0,
+  "group": "smelting",
+  "ingredient": {
+    "item": "ashenterra:demonite"
+  },
+  "result": {
+    "id": "ashenterra:demonite_ingot"
+  }
+}

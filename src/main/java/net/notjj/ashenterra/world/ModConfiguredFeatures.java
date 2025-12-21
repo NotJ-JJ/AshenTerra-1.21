@@ -62,7 +62,7 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> hellstoneReplaceables =
                 List.of(OreFeatureConfig.createTarget(hellstoneReplaceable, ModBlocks.HELLSTONE_ORE.getDefaultState()));
 
-        register(context,TIN_ORE_KEY,Feature.ORE,new OreFeatureConfig(tinReplaceables,14));
+        register(context,TIN_ORE_KEY,Feature.ORE,new OreFeatureConfig(tinReplaceables,10));
         register(context,LEAD_ORE_KEY,Feature.ORE,new OreFeatureConfig(leadReplaceables,6));
         register(context,SILVER_ORE_KEY,Feature.ORE,new OreFeatureConfig(silverReplaceables,5));
         register(context,TUNGSTEN_ORE_KEY,Feature.ORE,new OreFeatureConfig(tungstenReplaceables,5));

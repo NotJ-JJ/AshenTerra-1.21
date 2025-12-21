@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "group": "smelting",
+  "ingredient": {
+    "item": "ashenterra:deepslate_tungsten_ore"
+  },
+  "result": {
+    "id": "ashenterra:tungsten_ingot"
+  }
+}

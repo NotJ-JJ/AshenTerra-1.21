@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "smelting",
+  "ingredient": {
+    "item": "ashenterra:platinum_ore"
+  },
+  "result": {
+    "id": "ashenterra:platinum_ingot"
+  }
+}
