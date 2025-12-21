@@ -1,4 +1,4 @@
-// 1.21	2025-12-20T17:28:40.0456245	AshenTerra/Tags for minecraft:block
+// 1.21	2025-12-21T14:37:05.8518056	AshenTerra/Tags for minecraft:block
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\ashenterra\tags\block\incorrect_for_molten_tool.json
 4744427cb647fb98a8fcce83a6e54e25ff6d2741 data\ashenterra\tags\block\incorrect_for_silver_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\ashenterra\tags\block\incorrect_for_demonite_tool.json
@@ -7,10 +7,12 @@ aeb702f97bf15ddc1b471eabe17224f499fb9c9f data\minecraft\tags\block\needs_iron_to
 a51e911de737f241b6d0a69e1b2fc6da1ce38ec9 data\ashenterra\tags\block\needs_silver_tool.json
 0de336b9422903eeddf8f776928ccae4b6e14fa5 data\ashenterra\tags\block\needs_gold_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\ashenterra\tags\block\incorrect_for_gold_tool.json
+882f7161808179f92ed953b9200fdaf74eec6c36 data\ashenterra\tags\block\hellstone_replaceable.json
 f3edd857f0c6bf5f4379b808d58f44921db80058 data\minecraft\tags\block\mineable\pickaxe.json
 cbd7497a3bd0a85a98298301ee6dd0284538628c data\minecraft\tags\block\needs_stone_tool.json
 ce95d99876bbe184818c8a2c577ebcaed44d595b data\minecraft\tags\block\incorrect_for_iron_tool.json
 457b94c341a48834900e4702a1896333d85f478c data\minecraft\tags\block\incorrect_for_stone_tool.json
 72db700aad566dd7ea99b494fe5b6f11f88efa45 data\ashenterra\tags\block\needs_copper_tool.json
+515c6960655ce479180b1a6bf0acefe1d9d707d4 data\ashenterra\tags\block\meteorite_replaceable.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\ashenterra\tags\block\incorrect_for_copper_tool.json
 950a086f855d118e00d3fc9697663c7721c42db1 data\ashenterra\tags\block\incorrect_for_iron_tool.json

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.notjj.ashenterra.block.ModBlocks;
 import net.notjj.ashenterra.item.ModItemGroups;
 import net.notjj.ashenterra.item.ModItems;
+import net.notjj.ashenterra.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class AshenTerra implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

@@ -19,6 +19,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        getOrCreateTagBuilder(ModTags.Blocks.METEORITE_REPLACEABLE)
+                .add(Blocks.GRASS_BLOCK).add(Blocks.DIRT).add(Blocks.STONE).add(Blocks.COBBLESTONE).add(Blocks.COARSE_DIRT).add(Blocks.DIRT_PATH).add(Blocks.GRAVEL)
+                        .add(Blocks.ANDESITE).add(Blocks.GRANITE).add(Blocks.DIORITE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.HELLSTONE_REPLACEABLE)
+                .add(Blocks.NETHERRACK).add(Blocks.MAGMA_BLOCK);
+
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_TIN_ORE)

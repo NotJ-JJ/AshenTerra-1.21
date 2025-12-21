@@ -9,6 +9,9 @@ import net.notjj.ashenterra.AshenTerra;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> METEORITE_REPLACEABLE = createTag("meteorite_replaceable");
+        public static final TagKey<Block> HELLSTONE_REPLACEABLE = createTag("hellstone_replaceable");
+
         public static final TagKey<Block> NEEDS_COPPER_TOOL = createTag("needs_copper_tool");
         public static final TagKey<Block> NEEDS_SILVER_TOOL = createTag("needs_silver_tool");
         public static final TagKey<Block> NEEDS_GOLD_TOOL = createTag("needs_gold_tool");

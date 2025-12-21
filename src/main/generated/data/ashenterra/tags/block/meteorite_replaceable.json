@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt_path",
+    "minecraft:gravel",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite"
+  ]
+}
