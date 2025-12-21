@@ -24,8 +24,10 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 ModPlacedFeatures.CRIMTANE_ORE_PLACED);
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MEADOW,BiomeKeys.PLAINS,BiomeKeys.DESERT,
-                        BiomeKeys.TAIGA,BiomeKeys.ERODED_BADLANDS,BiomeKeys.BADLANDS), GenerationStep.Feature.TOP_LAYER_MODIFICATION,
+        //BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MEADOW,BiomeKeys.PLAINS,BiomeKeys.DESERT,
+        //                BiomeKeys.TAIGA,BiomeKeys.ERODED_BADLANDS,BiomeKeys.BADLANDS), GenerationStep.Feature.TOP_LAYER_MODIFICATION,
+        //        ModPlacedFeatures.METEORITE_ORE_PLACED);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
                 ModPlacedFeatures.METEORITE_ORE_PLACED);
 
         BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(), GenerationStep.Feature.UNDERGROUND_ORES,

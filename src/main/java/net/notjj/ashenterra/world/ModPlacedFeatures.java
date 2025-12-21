@@ -38,9 +38,11 @@ public class ModPlacedFeatures {
         register(context,TUNGSTEN_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.TUNGSTEN_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(-70),YOffset.fixed(40))));
         register(context,PLATINUM_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(-50),YOffset.fixed(15))));
+                ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(-50),YOffset.fixed(15))));
+
         register(context,METEORITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.METEORITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(1, HeightRangePlacementModifier.trapezoid(YOffset.fixed(60),YOffset.fixed(76))));
+                ModOrePlacement.modifiersWithCount(1, HeightRangePlacementModifier.trapezoid(YOffset.fixed(64),YOffset.fixed(86))));
+
         register(context,DEMONITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.DEMONITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4, HeightRangePlacementModifier.uniform(YOffset.fixed(-80),YOffset.fixed(10))));
         register(context,CRIMTANE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.CRIMTANE_ORE_KEY),
