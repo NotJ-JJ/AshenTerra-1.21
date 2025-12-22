@@ -51,8 +51,8 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> platinumReplaceables =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.PLATINUM_ORE.getDefaultState()),
                         (OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.DEEPSLATE_PLATINUM_ORE.getDefaultState())));
-        List<OreFeatureConfig.Target> meteoriteReplaceables =
-                List.of(OreFeatureConfig.createTarget(meteoriteReplaceable, ModBlocks.METEORITE.getDefaultState()));
+        //List<OreFeatureConfig.Target> meteoriteReplaceables =
+                //List.of(OreFeatureConfig.createTarget(meteoriteReplaceable, ModBlocks.METEORITE.getDefaultState()));
         List<OreFeatureConfig.Target> demoniteReplaceables =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.DEMONITE_ORE.getDefaultState()),
                         (OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.DEMONITE_ORE.getDefaultState())));
@@ -67,7 +67,7 @@ public class ModConfiguredFeatures {
         register(context,SILVER_ORE_KEY,Feature.ORE,new OreFeatureConfig(silverReplaceables,5));
         register(context,TUNGSTEN_ORE_KEY,Feature.ORE,new OreFeatureConfig(tungstenReplaceables,5));
         register(context,PLATINUM_ORE_KEY,Feature.ORE,new OreFeatureConfig(platinumReplaceables,4));
-        register(context,METEORITE_ORE_KEY,Feature.ORE,new OreFeatureConfig(meteoriteReplaceables,30,0.6f));
+        //register(context,METEORITE_ORE_KEY,Feature.SCATTERED_ORE,new OreFeatureConfig(meteoriteReplaceables,14,0.6f));
         register(context,DEMONITE_ORE_KEY,Feature.ORE,new OreFeatureConfig(demoniteReplaceables,3));
         register(context,CRIMTANE_ORE_KEY,Feature.ORE,new OreFeatureConfig(crimtaneReplaceables,3));
         register(context,HELLSTONE_ORE_KEY,Feature.ORE,new OreFeatureConfig(hellstoneReplaceables,7,0.4f));

@@ -21,7 +21,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SILVER_ORE_PLACED = registerKey("silver_ore_placed");
     public static final RegistryKey<PlacedFeature> TUNGSTEN_ORE_PLACED = registerKey("tungsten_ore_placed");
     public static final RegistryKey<PlacedFeature> PLATINUM_ORE_PLACED = registerKey("platinum_ore_placed");
-    public static final RegistryKey<PlacedFeature> METEORITE_ORE_PLACED = registerKey("meteorite_ore_placed");
+    //public static final RegistryKey<PlacedFeature> METEORITE_ORE_PLACED = registerKey("meteorite_ore_placed");
     public static final RegistryKey<PlacedFeature> DEMONITE_ORE_PLACED = registerKey("demonite_ore_placed");
     public static final RegistryKey<PlacedFeature> CRIMTANE_ORE_PLACED = registerKey("crimtane_ore_placed");
     public static final RegistryKey<PlacedFeature> HELLSTONE_ORE_PLACED = registerKey("hellstone_ore_placed");
@@ -40,8 +40,8 @@ public class ModPlacedFeatures {
         register(context,PLATINUM_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(-50),YOffset.fixed(15))));
 
-        register(context,METEORITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.METEORITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(1, HeightRangePlacementModifier.trapezoid(YOffset.fixed(64),YOffset.fixed(86))));
+        //register(context,METEORITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.METEORITE_ORE_KEY),
+       //         ModOrePlacement.modifiersWithCount(1, HeightRangePlacementModifier.trapezoid(YOffset.fixed(20),YOffset.fixed(80))));
 
         register(context,DEMONITE_ORE_PLACED,configuredFeatures.getOrThrow(ModConfiguredFeatures.DEMONITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4, HeightRangePlacementModifier.uniform(YOffset.fixed(-80),YOffset.fixed(10))));

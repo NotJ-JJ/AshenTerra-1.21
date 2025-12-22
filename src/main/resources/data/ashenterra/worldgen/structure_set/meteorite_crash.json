@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ashenterra:meteorite_crash",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 11358627,
+
+    "spacing": 2,
+
+    "separation": 1
+  }
+}
