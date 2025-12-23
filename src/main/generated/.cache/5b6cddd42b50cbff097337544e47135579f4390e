@@ -1,4 +1,4 @@
-// 1.21	2025-12-22T17:36:42.4945292	AshenTerra/
+// 1.21	2025-12-23T23:46:29.0843312	AshenTerra/
 4ce919e8d4d137d569528602937b326b628c7b6d data\ashenterra\worldgen\placed_feature\tungsten_ore_placed.json
 1d37fba33f83981c1313988090cdaa05152c4725 data\ashenterra\worldgen\placed_feature\demonite_ore_placed.json
 046942e0ed0a1c751d1cf10e507dceff8170763c data\ashenterra\worldgen\configured_feature\demonite_ore.json
@@ -11,7 +11,7 @@ ba4e351387b44e9e85a13ebd42f76555e3b02780 data\ashenterra\worldgen\configured_fea
 da129f61c9823dc6b038465b3b09a8ed88703f04 data\ashenterra\worldgen\placed_feature\platinum_ore_placed.json
 50b6f853dad9d046223af00b3aec924b900692ca data\ashenterra\worldgen\placed_feature\tin_ore_placed.json
 fe858a87c1dc8f4a51bd36ae6c12954dfd58b2cf data\ashenterra\worldgen\placed_feature\lead_ore_placed.json
-4fb1e02cd7549f97bb5d0be67e7f577d64f2e1fa data\ashenterra\worldgen\configured_feature\platinum_ore.json
 acabdb0e5ca35443366deaa7711e472dd4c7a353 data\ashenterra\worldgen\placed_feature\hellstone_ore_placed.json
+4fb1e02cd7549f97bb5d0be67e7f577d64f2e1fa data\ashenterra\worldgen\configured_feature\platinum_ore.json
 79f8bea1af9afb2572c58a6721c8178dd7f21c2b data\ashenterra\worldgen\configured_feature\silver_ore.json
 8f40dc013fc8185b50f3a3f4a55092ad69f29e12 data\ashenterra\worldgen\configured_feature\lead_ore.json

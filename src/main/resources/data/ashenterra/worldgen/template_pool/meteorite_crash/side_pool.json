@@ -4,7 +4,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "ashenterra:meteorite_crash",
+        "location": "ashenterra:meteorite_crash_struc",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
