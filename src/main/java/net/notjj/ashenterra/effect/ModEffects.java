@@ -16,6 +16,14 @@ public class ModEffects {
                     EntityAttributes.GENERIC_ATTACK_KNOCKBACK,Identifier.of(AshenTerra.MOD_ID,"titan"),
                     1.4f, EntityAttributeModifier.Operation.ADD_VALUE));
 
+    public static final RegistryEntry<StatusEffect> IRONSKIN = registerStatusEffect("ironskin",
+            new DefaultModEffect(StatusEffectCategory.BENEFICIAL,16646020).addAttributeModifier(
+                    EntityAttributes.GENERIC_ARMOR,Identifier.of(AshenTerra.MOD_ID,"ironskin"),
+                    4f, EntityAttributeModifier.Operation.ADD_VALUE));
+
+    public static final RegistryEntry<StatusEffect> THORNS = registerStatusEffect("thorns",
+            new ThornsEffect(StatusEffectCategory.BENEFICIAL,16646020));
+
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect){
         return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(AshenTerra.MOD_ID,name),statusEffect);
     }
