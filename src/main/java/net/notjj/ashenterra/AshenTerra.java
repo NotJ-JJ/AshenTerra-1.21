@@ -3,6 +3,7 @@ package net.notjj.ashenterra;
 import net.fabricmc.api.ModInitializer;
 
 import net.notjj.ashenterra.block.ModBlocks;
+import net.notjj.ashenterra.effect.ModEffects;
 import net.notjj.ashenterra.item.ModItemGroups;
 import net.notjj.ashenterra.item.ModItems;
 import net.notjj.ashenterra.world.gen.ModWorldGeneration;
@@ -19,5 +20,6 @@ public class AshenTerra implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
+		ModEffects.registerEffects();
 	}
 }
