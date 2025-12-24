@@ -17,6 +17,32 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.ashenterra.ashen_items"))
                     .entries((displayContext, entries) -> {
                         //Items
+                        entries.add(ModItems.APRICOT);
+                        entries.add(ModItems.BLOOD_ORANGE);
+                        entries.add(ModItems.BACON);
+                        entries.add(ModItems.BANANA);
+                        entries.add(ModItems.BLACKCURRANT);
+                        entries.add(ModItems.RAMBUTAN);
+                        entries.add(ModItems.STAR_FRUIT);
+                        entries.add(ModItems.PEACH);
+                        entries.add(ModItems.POMEGRANATE);
+                        entries.add(ModItems.PLUM);
+                        entries.add(ModItems.ELDERBERRY);
+                        entries.add(ModItems.PINEAPPLE);
+                        entries.add(ModItems.STEAK);
+                        entries.add(ModItems.FRIED_EGG);
+                        entries.add(ModItems.DRAGON_FRUIT);
+                        entries.add(ModItems.SPICY_PEPPER);
+                        entries.add(ModItems.COFFEE);
+                        entries.add(ModItems.SHUCKED_OYSTER);
+                        entries.add(ModItems.MARSHMALLOW);
+                        entries.add(ModItems.GRAPES);
+                        entries.add(ModItems.CHICKEN_NUGGET);
+                        entries.add(ModItems.MANGO);
+                        entries.add(ModItems.LEMON);
+                        entries.add(ModItems.COCONUT);
+                        entries.add(ModItems.CHERRY);
+                        entries.add(ModItems.GRAPEFRUIT);
 
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.RAW_PLATINUM);
