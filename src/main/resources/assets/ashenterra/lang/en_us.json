@@ -108,5 +108,50 @@
   "effect.ashenterra.ironskin": "Ironskin",
   "effect.ashenterra.thorns": "Thorns",
 
+  "item.minecraft.potion.effect.titan_potion": "Titan Potion",
+  "item.minecraft.splash_potion.effect.titan_potion": "Splash Potion Of Titan",
+  "item.minecraft.lingering_potion.effect.titan_potion": "Lingering Titan Potion",
+  "item.minecraft.tipped_arrow.effect.titan_potion": "Arrow Of Titan",
+
+  "item.minecraft.potion.effect.thorns_potion": "Thorns Potion",
+  "item.minecraft.splash_potion.effect.thorns_potion": "Splash Potion Of Thorns",
+  "item.minecraft.lingering_potion.effect.thorns_potion": "Lingering Thorns Potion",
+  "item.minecraft.tipped_arrow.effect.thorns_potion": "Arrow Of Thorns",
+
+  "item.minecraft.potion.effect.ironskin_potion": "Ironskin Potion",
+  "item.minecraft.splash_potion.effect.ironskin_potion": "Splash Potion Of Ironskin",
+  "item.minecraft.lingering_potion.effect.ironskin_potion": "Lingering Ironskin Potion",
+  "item.minecraft.tipped_arrow.effect.ironskin_potion": "Arrow Of Ironskin",
+
+  "item.minecraft.potion.effect.long_titan_potion": "Titan Potion",
+  "item.minecraft.splash_potion.effect.long_titan_potion": "Splash Potion Of Titan",
+  "item.minecraft.lingering_potion.effect.long_titan_potion": "Lingering Titan Potion",
+  "item.minecraft.tipped_arrow.effect.long_titan_potion": "Arrow Of Titan",
+
+  "item.minecraft.potion.effect.long_thorns_potion": "Thorns Potion",
+  "item.minecraft.splash_potion.effect.long_thorns_potion": "Splash Potion Of Thorns",
+  "item.minecraft.lingering_potion.effect.long_thorns_potion": "Lingering Thorns Potion",
+  "item.minecraft.tipped_arrow.effect.long_thorns_potion": "Arrow Of Thorns",
+
+  "item.minecraft.potion.effect.long_ironskin_potion": "Ironskin Potion",
+  "item.minecraft.splash_potion.effect.long_ironskin_potion": "Splash Potion Of Ironskin",
+  "item.minecraft.lingering_potion.effect.long_ironskin_potion": "Lingering Ironskin Potion",
+  "item.minecraft.tipped_arrow.effect.long_ironskin_potion": "Arrow Of Ironskin",
+
+  "item.minecraft.potion.effect.strong_titan_potion": "Titan Potion",
+  "item.minecraft.splash_potion.effect.strong_titan_potion": "Splash Potion Of Titan",
+  "item.minecraft.lingering_potion.effect.strong_titan_potion": "Lingering Titan Potion",
+  "item.minecraft.tipped_arrow.effect.strong_titan_potion": "Arrow Of Titan",
+
+  "item.minecraft.potion.effect.strong_thorns_potion": "Thorns Potion",
+  "item.minecraft.splash_potion.effect.strong_thorns_potion": "Splash Potion Of Thorns",
+  "item.minecraft.lingering_potion.effect.strong_thorns_potion": "Lingering Thorns Potion",
+  "item.minecraft.tipped_arrow.effect.strong_thorns_potion": "Arrow Of Thorns",
+
+  "item.minecraft.potion.effect.strong_ironskin_potion": "Ironskin Potion",
+  "item.minecraft.splash_potion.effect.strong_ironskin_potion": "Splash Potion Of Ironskin",
+  "item.minecraft.lingering_potion.effect.strong_ironskin_potion": "Lingering Ironskin Potion",
+  "item.minecraft.tipped_arrow.effect.strong_ironskin_potion": "Arrow Of Ironskin",
+
   "itemgroup.ashenterra.ashen_items": "AshenTerra"
 }
