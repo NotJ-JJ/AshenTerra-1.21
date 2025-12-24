@@ -11,23 +11,11 @@ public class ModItems {
 
     //Foods
     public static final Item APRICOT = Register("apricot",new Item(new Item.Settings().food(ModFoodComponents.APRICOT)));
-    public static final Item BANANA = Register("banana",new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
-    public static final Item GRAPEFRUIT = Register("grapefruit",new Item(new Item.Settings().food(ModFoodComponents.GRAPEFRUIT)));
     public static final Item BLOOD_ORANGE = Register("blood_orange",new Item(new Item.Settings().food(ModFoodComponents.BLOOD_ORANGE)));
-    public static final Item BLACKCURRANT = Register("blackcurrant",new Item(new Item.Settings().food(ModFoodComponents.BLACKCURRANT)));
-    public static final Item CHERRY = Register("cherry",new Item(new Item.Settings().food(ModFoodComponents.CHERRY)));
     public static final Item COCONUT = Register("coconut",new Item(new Item.Settings().food(ModFoodComponents.COCONUT)));
     public static final Item LEMON = Register("lemon",new Item(new Item.Settings().food(ModFoodComponents.LEMON)));
-    public static final Item MANGO = Register("manga",new Item(new Item.Settings().food(ModFoodComponents.MANGO)));
-    public static final Item PEACH = Register("peach",new Item(new Item.Settings().food(ModFoodComponents.PEACH)));
     public static final Item DRAGON_FRUIT = Register("dragon_fruit",new Item(new Item.Settings().food(ModFoodComponents.DRAGON_FRUIT)));
     public static final Item ELDERBERRY = Register("elderberry",new Item(new Item.Settings().food(ModFoodComponents.ELDERBERRY)));
-    public static final Item PINEAPPLE = Register("pineapple",new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
-    public static final Item PLUM = Register("plum",new Item(new Item.Settings().food(ModFoodComponents.PLUM)));
-    public static final Item POMEGRANATE = Register("pomegranate",new Item(new Item.Settings().food(ModFoodComponents.POMEGRANATE)));
-    public static final Item CHICKEN_NUGGET = Register("chicken_nugget",new Item(new Item.Settings().food(ModFoodComponents.CHICKEN_NUGGET)));
-    public static final Item FRIED_EGG = Register("fried_egg",new Item(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
-    public static final Item GRAPES = Register("grapes",new Item(new Item.Settings().food(ModFoodComponents.GRAPES)));
 
     public static final Item RAMBUTAN = Register("rambutan",new Item(new Item.Settings().food(ModFoodComponents.RAMBUTAN)));
     public static final Item SPICY_PEPPER = Register("spicy_pepper",new Item(new Item.Settings().food(ModFoodComponents.SPICY_PEPPER)));
