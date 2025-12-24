@@ -20,6 +20,6 @@ public class AshenTerra implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
-		ModEffects.registerEffects();
+		ModEffects.registerModEffects();
 	}
 }
